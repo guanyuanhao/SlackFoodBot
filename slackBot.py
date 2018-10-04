@@ -6,8 +6,6 @@ from collections import Counter
 import json
 from yelpTest import query_api
 
-response = query_api("bubble tea", "Durham, NC")
-print(response)
 # instantiate Slack client
 slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
 # starterbot's user ID in Slack: value is assigned after the bot starts up
