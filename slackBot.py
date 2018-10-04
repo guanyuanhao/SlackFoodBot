@@ -78,6 +78,10 @@ def handle_command(command, channel):
             "text": response['price']
         },
         {
+            "title": "Phone",
+            "text": response['phone']
+        },
+        {
             "title": "Rating",
             "text": response['rating']
         },
